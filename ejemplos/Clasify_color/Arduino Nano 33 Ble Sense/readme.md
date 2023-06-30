@@ -25,5 +25,5 @@ finalmente debemos agregarla a el IDE de arduino siguiendo estos pasos:
 
 ![agregar](https://github.com/antuki29/Tutorial_tinyML_Udenar/assets/84738230/9c2a1924-da81-4d92-8ff4-9118eac5fd64)
 
-
-
+2- CAPTURA DE DATOS PARA LE CREACION DEL DATASET:
+Para la captura de los datos usaremos el sckech llamado ""
