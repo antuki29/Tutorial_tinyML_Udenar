@@ -1,8 +1,16 @@
 1- INSTALACION DE LIBRERIAS:
-la primera libreria que usaremos es la libreria del sensor APDS9960.
+Para empezar necesitamos agregar nuestra placa al IDE de arduino 
+para esto debemos entrar al gestor de tarjetas y buscar lo siguiente "Arduino Mbed OS nano Boards" e instalamos.
+
+![mbed boards](https://github.com/antuki29/Tutorial_tinyML_Udenar/assets/84738230/39af93ca-2595-4340-a88a-f2c79feca8a3)
+
+
+
+La segunda libreria que usaremos es la libreria del sensor APDS9960.
 en este caso arduino tiene una libreria correspondiente al sensor ya incorporado de la placa arduino nano 33 ble sense.
 
 ya en el IDE de arduino procedemos a buscar  en el gestor de librerias dicho sensor asi:
+
 ![apds](https://github.com/antuki29/Tutorial_tinyML_Udenar/assets/84738230/bdf174d4-73e4-42af-b42c-e22ce3874424)
 
 luego necesitamos la libreria de tensorflowlite para arduino.
@@ -14,5 +22,6 @@ dentro de la pagina procederemos a descargar el archivo .ZIP de la libreria.
 
 finalmente debemos agregarla a el IDE de arduino siguiendo estos pasos:
   - en la pestaña de "programa" nos dirigimos a incluir libreria .zip y seleccionamos el archivo que descargamos.
+
 ![agregar](https://github.com/antuki29/Tutorial_tinyML_Udenar/assets/84738230/9c2a1924-da81-4d92-8ff4-9118eac5fd64)
 
