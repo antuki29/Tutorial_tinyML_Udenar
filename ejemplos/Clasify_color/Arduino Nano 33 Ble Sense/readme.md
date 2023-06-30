@@ -21,7 +21,9 @@ dentro de la pagina procederemos a descargar el archivo .ZIP de la libreria.
 ![github](https://github.com/antuki29/Tutorial_tinyML_Udenar/assets/84738230/a5f24dba-4db9-49e3-ae7c-1396705c0fed)
 
 finalmente debemos agregarla a el IDE de arduino siguiendo estos pasos:
-  - en la pestaña de "programa" nos dirigimos a incluir libreria .zip y seleccionamos el archivo que descargamos.
+  - en la pestaña de "programa" nos dirigimos a incluir biblioteca .zip y seleccionamos el archivo que descargamos.
 
 ![agregar](https://github.com/antuki29/Tutorial_tinyML_Udenar/assets/84738230/9c2a1924-da81-4d92-8ff4-9118eac5fd64)
+
+
 
