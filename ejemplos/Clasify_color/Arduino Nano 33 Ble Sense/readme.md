@@ -26,4 +26,17 @@ finalmente debemos agregarla a el IDE de arduino siguiendo estos pasos:
 ![agregar](https://github.com/antuki29/Tutorial_tinyML_Udenar/assets/84738230/9c2a1924-da81-4d92-8ff4-9118eac5fd64)
 
 2- CAPTURA DE DATOS PARA LE CREACION DEL DATASET:
-Para la captura de los datos usaremos el sckech llamado ""
+Para la captura de los datos usaremos el sckech llamado "color_capture" que recopila los datos del sensor y envia esos valores a traves de comunicacion serial.
+
+luego usaremos el programa "coolterm" para conectarnos a la placa y capturar los datos en un archivo .csv 
+
+![cool](https://github.com/antuki29/Tutorial_tinyML_Udenar/assets/84738230/4d574ed8-ad1d-4f84-a640-3f8dcfb4bf5e)
+
+en el programa nos remitiremos al apartado de configuracion en donde escojemos el COM correspondiente con la placa y 
+los baudios a los que trasmite.
+![cool2](https://github.com/antuki29/Tutorial_tinyML_Udenar/assets/84738230/cf1713ac-64a3-469f-999a-e538784458c8)
+
+![cool3](https://github.com/antuki29/Tutorial_tinyML_Udenar/assets/84738230/d39dfc32-d03f-4cc2-b8d8-093a5ac3db40)
+
+
+
