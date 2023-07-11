@@ -36,7 +36,6 @@ en el programa nos remitiremos al apartado de configuracion en donde escojemos e
 los baudios a los que trasmite.
 
 
-TENSORFLOW..........
 ![cool2](https://github.com/antuki29/Tutorial_tinyML_Udenar/assets/84738230/cf1713ac-64a3-469f-999a-e538784458c8)
 
 ![cool3](https://github.com/antuki29/Tutorial_tinyML_Udenar/assets/84738230/d39dfc32-d03f-4cc2-b8d8-093a5ac3db40)
