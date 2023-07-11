@@ -6,4 +6,4 @@ para el desarrollo de este ejemplo se realizan los siguientes pasos:
   2- captura de los datos para la creacion de nuestro dataset.
   3- diseño de la red nueronal.
   4- despliegue del modelo en un microcontrolador.
-
+generamos una explicacion detallada para cada placa de desarrollo.
