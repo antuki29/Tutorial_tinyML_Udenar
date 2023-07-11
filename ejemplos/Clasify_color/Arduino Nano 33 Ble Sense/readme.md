@@ -35,9 +35,24 @@ luego usaremos el programa "coolterm" para conectarnos a la placa y capturar los
 en el programa nos remitiremos al apartado de configuracion en donde escojemos el COM correspondiente con la placa y 
 los baudios a los que trasmite.
 
+
 ![cool2](https://github.com/antuki29/Tutorial_tinyML_Udenar/assets/84738230/cf1713ac-64a3-469f-999a-e538784458c8)
 
 ![cool3](https://github.com/antuki29/Tutorial_tinyML_Udenar/assets/84738230/d39dfc32-d03f-4cc2-b8d8-093a5ac3db40)
+
+
+3- DISEÑO DE LA RED NEURONAL:
+con el dataset listo se procede a realizar el diseño de nuestra red neuronal.
+la herramienta que usamos el Colab ya que nos permite entrener modelos de machine learning en un escritorio remoto con mejores capacidades de computo.
+Colab proporciona un cuaderno Jupyter que nos permite ejecutar codigo en un navegador web.
+
+este cuaderno de Jupyter se divide en:
+* configuracion de librerias necesarias.
+* cargar y leer los archivos .CSV del dataset.
+* analizar y preparar los datos.
+* construir y entrenar el modelo.
+* convertir el modelo entrenedo a tensorflow lite.
+
 
 
 
