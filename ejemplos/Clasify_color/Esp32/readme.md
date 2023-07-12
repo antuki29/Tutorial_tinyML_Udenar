@@ -1,29 +1,20 @@
 1- INSTALACION DE LIBRERIAS:
-Para empezar necesitamos agregar nuestra placa al IDE de arduino 
-para esto debemos entrar al gestor de tarjetas y buscar lo siguiente "Arduino Mbed OS nano Boards" e instalamos.
 
-![mbed boards](https://github.com/antuki29/Tutorial_tinyML_Udenar/assets/84738230/39af93ca-2595-4340-a88a-f2c79feca8a3)
+La primera  libreria que debemos descargar es la  del sensor APDS9960. 
+en este caso arduino tiene una libreria correspondiente al sensor creado por adafruit.
+
+ya en el IDE de arduino procedemos a buscar  en el gestor de librerias dicho sensor asi: 
+
+
+![apds9960](https://github.com/antuki29/Tutorial_tinyML_Udenar/assets/84738230/41412df2-d0cc-4c9d-9dbf-ac7879974747)
+
+luego necesitamos la libreria de tensorflowlite para ESP32.
+para obtenerla debemos ir al gestor de librerias y escribir "Tensorflow lite esp32"
+
+![tensorflowesp32](https://github.com/antuki29/Tutorial_tinyML_Udenar/assets/84738230/77f8f2f4-b7fc-4ede-8b5d-cae3ae87d654)
 
 
 
-La segunda libreria que usaremos es la libreria del sensor APDS9960.
-en este caso arduino tiene una libreria correspondiente al sensor ya incorporado de la placa arduino nano 33 ble sense.
-
-ya en el IDE de arduino procedemos a buscar  en el gestor de librerias dicho sensor asi:
-
-![apds](https://github.com/antuki29/Tutorial_tinyML_Udenar/assets/84738230/bdf174d4-73e4-42af-b42c-e22ce3874424)
-
-luego necesitamos la libreria de tensorflowlite para arduino.
-para obtenerla debemos descargarla desde internet ya que el gestor de librerias de arduino no tiene disponible esta libreria.
-la pagina para descargar la libreria es https://github.com/tensorflow/tflite-micro-arduino-examples
-dentro de la pagina procederemos a descargar el archivo .ZIP de la libreria.
-
-![github](https://github.com/antuki29/Tutorial_tinyML_Udenar/assets/84738230/a5f24dba-4db9-49e3-ae7c-1396705c0fed)
-
-finalmente debemos agregarla a el IDE de arduino siguiendo estos pasos:
-  - en la pestaña de "programa" nos dirigimos a incluir biblioteca .zip y seleccionamos el archivo que descargamos.
-
-![agregar](https://github.com/antuki29/Tutorial_tinyML_Udenar/assets/84738230/9c2a1924-da81-4d92-8ff4-9118eac5fd64)
 
 2- CAPTURA DE DATOS PARA LE CREACION DEL DATASET:
 Para la captura de los datos usaremos el sckech llamado "color_capture" que recopila los datos del sensor y envia esos valores a traves de comunicacion serial.
